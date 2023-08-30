@@ -32,3 +32,7 @@ mapping done in the interface above for mapping the content to be migrated.
 
 # Module 2 : mongo_migrate
 - The mongo_migrate module would be a custom Drupal module designed to facilitate the migration of data from a MongoDB database into Drupal.
+
+# FINAL SOLUTION
+- I have create a button which I wanted to run a Batch operation for Data Migration
+- The Final solution should be a DRUSH command for migrating with arguments (My composer and DRUSH was broken - I wasn't able to move with this solution.)
