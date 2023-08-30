@@ -20,3 +20,15 @@ mapping done in the interface above for mapping the content to be migrated.
 - List of resources reviewed. Especially around mongo setup.
 - Module for creating the custom entity.
 - Module written on top of Migrate with the mapping interface.
+
+# Implementation
+
+- Create 2 custom modules : city_entity and mongo_migrate
+
+# Module 1 : city_entity
+
+- Module city_entity is responsible for creating custom entity as per the Mongo DB collection
+- The custom entity modules make sures to generate a custom entity type in system.
+
+# Module 2 : mongo_migrate
+- The mongo_migrate module would be a custom Drupal module designed to facilitate the migration of data from a MongoDB database into Drupal.
