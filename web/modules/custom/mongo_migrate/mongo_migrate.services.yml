@@ -1,0 +1,4 @@
+services:
+  mongo_migrate.migration_service:
+    class: Drupal\mongo_migrate\MongoDataMigrationService
+    arguments: ['@plugin.manager.migration', '@config.factory']

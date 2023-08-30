@@ -1,0 +1,8 @@
+name: 'MongoDB Migrate'
+type: module
+description: 'Migrate data from MongoDB to Drupal.'
+core_version_requirement:  ^9 || ^10
+package: Custom
+dependencies:
+  - migrate:migrate
+  - migrate_plus:migrate_plus

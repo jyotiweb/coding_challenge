@@ -1,0 +1,15 @@
+mongo_migrate.field_mapping:
+  path: '/admin/config/mongo_migrate/field-mapping'
+  defaults:
+    _form: '\Drupal\mongo_migrate\Form\FieldMappingForm'
+    _title: 'Field Mapping'
+  requirements:
+    _permission: 'administer site configuration'
+
+mongo_migrate.migration_execute:
+  path: '/admin/config/mongo_migrate/migration-execute'
+  defaults:
+    _form: '\Drupal\mongo_migrate\Form\MigrationExecuteForm'
+    _title: 'Run Migration'
+  requirements:
+    _permission: 'administer site configuration'

@@ -1,0 +1,24 @@
+city_entity.city_entity.*:
+  type: config_entity
+  label: City Entity
+  mapping:
+    id:
+      type: integer
+      label: 'ID'
+    city:
+      type: string
+      label: 'City'
+    latitude:
+      type: float
+      label: 'Latitude'
+    longitude:
+      type: float
+      label: 'Longitude'
+    uuid:
+      type: string
+    pop:
+      type: integer
+      label: 'Population'
+    state:
+      type: string
+      label: 'State'

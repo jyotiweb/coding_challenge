@@ -1,0 +1,16 @@
+id: mongo_city_to_drupal
+label: 'MongoDB City to Drupal Migration'
+migration_group: custom_migrations
+source:
+  plugin: mongodb
+  database_key: mongodb
+  collection: content
+destination:
+  plugin: 'entity:node'
+  bundle: city
+process:
+  title: _id
+  field_city: city
+  field_location: loc
+  field_population: pop
+  field_state: state

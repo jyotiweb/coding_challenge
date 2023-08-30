@@ -1,0 +1,39 @@
+city_entity.migration_field_mapping_form:
+  path: '/admin/config/city-entity/migration-field-mapping'
+  defaults:
+    _form: '\Drupal\city_entity\Form\MigrationFieldMappingForm'
+    _title: 'Migration Field Mapping'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.city_entity.collection:
+  path: '/admin/structure/city_entity'
+  defaults:
+    _entity_list: 'city_entity'
+    _title: 'City Entity'
+  requirements:
+    _permission: 'administer site configuration'
+
+city_entity.add_form:
+  path: '/admin/structure/city_entity/add'
+  defaults:
+    _entity_form: 'city_entity.default'
+    _title: 'Add city'
+  requirements:
+    _permission: 'administer city entities'
+
+entity.city_entity.edit_form:
+  path: '/admin/structure/city_entity/{city_entity}/edit'
+  defaults:
+    _entity_form: 'city_entity.edit'
+    _title: 'Edit City Entity'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.city_entity.delete_form:
+  path: '/admin/structure/city_entity/{city_entity}/delete'
+  defaults:
+    _entity_form: 'city_entity.delete'
+    _title: 'Delete City Entity'
+  requirements:
+    _permission: 'administer site configuration'

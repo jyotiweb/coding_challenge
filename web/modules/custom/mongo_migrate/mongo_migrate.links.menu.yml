@@ -1,0 +1,20 @@
+mongo_migrate.admin:
+  title: 'Mongo Migrate'
+  description: 'View and manage MongoDB migration settings.'
+  parent: system.admin_config_development
+  route_name: mongo_migrate.field_mapping
+  weight: 100
+
+mongo_migrate.field_mapping:
+  title: 'Field Mapping'
+  description: 'Map MongoDB fields to Drupal fields.'
+  parent: mongo_migrate.admin
+  route_name: mongo_migrate.field_mapping
+  weight: 0
+
+mongo_migrate.migration_execute:
+  title: 'Run Migration'
+  description: 'Execute the MongoDB to Drupal migration.'
+  parent: mongo_migrate.admin
+  route_name: mongo_migrate.migration_execute
+  weight: 1

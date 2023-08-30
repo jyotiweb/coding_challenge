@@ -1,0 +1,6 @@
+entity.city_entity.overview:
+  title: 'City Entities'
+  parent: system.admin_structure
+  description: 'Administer City Entity'
+  route_name: entity.city_entity.collection
+  weight: 100

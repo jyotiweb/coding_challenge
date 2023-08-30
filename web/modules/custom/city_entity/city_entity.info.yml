@@ -1,0 +1,7 @@
+name: 'City Entity'
+type: module
+description: 'A custom entity that maps to a City MongoDB collection.'
+package: Custom
+version: '1.0'
+core: 10.x
+core_version_requirement:  ^9 || ^10
